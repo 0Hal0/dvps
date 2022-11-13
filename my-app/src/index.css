@@ -1,0 +1,77 @@
+p{
+    font-size: 24px;
+    font-family: "Roboto";
+    font-style: normal;
+}
+div{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+h1{
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+/* identical to box height, or 106% */
+
+    display: flex;
+    align-items: center;
+
+    color: #000000;
+}
+
+.top-header{
+    position:absolute;
+    width: 100%;
+    background: #EBEFF3;
+    height:127px;
+}
+.top-header-item{
+    display: flex;
+    text-align: center;
+    align-items: center;
+}
+.top-header-item:nth-of-type(2){
+    justify-content: center;
+}
+.top-header-login{
+    display: flex;
+    text-align: right;
+    align-items: center;
+    justify-content: right;
+}
+.top-header-logo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 87px;
+}
+.top-container{
+    height: 127px;
+    background: #EBEFF3;
+    margin:0px;
+}
+.top-header-title{
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    /* DC Grey 1 */
+
+    color: #374355;
+}
+.top-header-text{
+    width: auto;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    /* identical to box height, or 100% */
+    text-align: right;
+    /* Gray 1 */
+    float:right;
+    color: #374355;
+}
